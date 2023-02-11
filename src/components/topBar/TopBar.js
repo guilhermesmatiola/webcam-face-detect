@@ -15,15 +15,11 @@ export default function TopBar() {
 
 	return (
 		<Top>
+			<a href="//www.google.com/search?q=hasar+brasil/" target="_blank" >
 			<img src={logo} ></img>
-			<Box>
-				<div
-				// onClick={goToSignin}
-				>Entrar</div>
-				<div
-				// s
-				>Cadastrar-se</div>
-			</Box>
+			</a>
+			
+			
 		</Top>
 	);
 }
