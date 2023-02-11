@@ -63,7 +63,7 @@ export default function Main() {
                   left: `${box.xCenter * 100}%`,
                   width: `${box.width * 100}%`,
                   height: `${box.height * 100}%`,
-
+                  zIndex:1
                 }}
               />
             ))}
